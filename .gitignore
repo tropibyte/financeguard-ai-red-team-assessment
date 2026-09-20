@@ -1,0 +1,12 @@
+# Secrets — never commit the API key
+**/.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Regenerable build artifacts (the graded evidence in attacks/results/ IS committed)
+starter/classifier/poisoned_data/
+starter/rag_chatbot/faiss_index/
